@@ -11,7 +11,7 @@ body{
     background-color: bisque;
     padding: 10px;
 }
-
+/* 
 .navbar ul{
     background-color: rgb(94, 86, 86);
     font-family: calibri;
@@ -37,7 +37,7 @@ li{
     list-style: none;
     display: inline-block;
 }
-
+ */
 .navbar {
     position: sticky;
     float: right;
