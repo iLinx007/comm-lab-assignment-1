@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: aqua;
+    /* background-image: url('/assets/images/bugs.jpg');
+    background-repeat: no-repeat; */
+}
+
+#main-header{
+    text-align: center;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.navbar ul{
+    background-color: rgb(94, 86, 86);
+    font-family: calibri;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Oswald", sans-serif;
+}
+
+
+.navbar a{
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    padding-inline: 20px;
+}
+
+.navbar a:hover{
+    background-color: rgb(61, 59, 59);
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar {
+    position: sticky;
+    float: right;
+    margin: 0px 0 0 0;
+}
+
+.navbar a {
+    font-size: .8em;
+    display: block;
+    margin-left: 20px;
+    padding-bottom: 3px;
+}
