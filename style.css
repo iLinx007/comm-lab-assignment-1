@@ -81,7 +81,7 @@ li {
 }
 
 #contact {
-    background-image: url('/media/images/contact1.jpg');
+    background-image: url('contact1.jpg');
     background-color: blue; /* Fallback color */
 }
 
