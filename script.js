@@ -1,5 +1,5 @@
 let curr_img = document.getElementById('photocar');
-let photocar_arr = ['/media/images/eq1.jpg', '/media/images/eq2.jpg', '/media/images/eq3.jpg', '/media/images/eq4.jpg', '/media/images/eq5.jpg', '/media/images/eq6.jpg', '/media/images/eq7.jpg', '/media/images/eq8.jpg'];
+let photocar_arr = ['eq1.jpg', 'eq2.jpg', 'eq3.jpg', 'eq4.jpg', 'eq5.jpg', 'eq6.jpg', 'eq7.jpg', 'eq8.jpg'];
 
 let currentIndex = 0;
 
