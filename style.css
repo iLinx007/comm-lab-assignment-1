@@ -67,7 +67,7 @@ li {
 }
 
 #home {
-    background-image: url('/media/images/bugs.jpg');
+    background-image: url('./media/images/bugs.jpg');
 }
 
 #about {
