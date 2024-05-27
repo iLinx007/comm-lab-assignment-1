@@ -67,16 +67,16 @@ li {
 }
 
 #home {
-    background-image: url('./media/images/bugs.jpg');
+    background-image: url(bugs.jpg);
 }
 
 #about {
-    background-image: url('/media/images/about1.jpg');
+    background-image: url(about1.jpg);
     background-color: red; /* Fallback color */
 }
 
 #project {
-    background-image: url('/media/images/project1.jpg');
+    background-image: url(project1.jpg);
     background-color: teal; /* Fallback color */
 }
 
