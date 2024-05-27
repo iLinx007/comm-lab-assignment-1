@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 #main-header {
     text-align: center;
     background-color: rgb(224, 173, 110);
@@ -81,17 +85,6 @@ li {
     background-color: blue; /* Fallback color */
 }
 
-.mff_video {
-    position: relative;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    border-radius: 20px;
-}
-
 @keyframes fade_in {
     from {
         opacity: 0;
@@ -113,29 +106,109 @@ li {
 }
 
 .text {
-    position: absolute;
-    left: 10%;
-    top: 60%;
-    transform: translateY(-50%);
-    width: 500px;
-    height: 300px;
-    padding: 20px;
+    position: absolute; 
+    left: 5%;
+    top: 20%; 
+    transform: translateY(0); 
+    width: 30%;     
     color: white;
     font-size: 30px;
+    padding: 20px;
 }
 
-.heading {
-    position: absolute;
-    left: 10%;
-    top: 30%;
-    transform: translateY(-50%);
-    width: 500px;
-    height: 300px;
+.home_text {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px; 
+}
+
+.topic_header {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.project_page_header{
+    color: black;
+    font-size: 60px;
+    font-weight: bolder;
+    transform: translateY(50%); 
+    transform: translateX(2%);   
+}
+.mff_video {
+    position: relative;
+    top: 20vh;
+    left: 5vw;
+    width: 40vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50vh;
+    border-radius: 20px;
+    background-color: teal;
+}
+
+.mff_video iframe {
+    border-radius: 20px;
+}
+
+.video_text{
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    font-weight: bold; 
+    right: -50vw;
+    top: -15vh;
+    width: 45%;    
+    color: black;
     padding: 20px;
+}
+
+.ec_website{
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    right: -50vw;
+    top: -15vh;
+    width: 45%;    
+    color: black;
+    padding: 20px;
+}
+
+.about_page_header{
     color: white;
     font-size: 40px;
-    font-style: italic;
-    font-family: "Jaro", sans-serif;
+    font-weight: bolder;
+    transform: translateY(50%); 
+    transform: translateX(2%);   
+}
+
+.about_div{
+    position: relative;
+    width: 35vw;
+    top: 25vh;
+    left: 15vw;
+}
+
+#about h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+}
+
+#about p{
+    font-family: "Oswald", sans-serif;
+    position: relative;   
+    color: white;
+    font-size: 20px;
+}
+
+.about_img{
+    position: relative;
+    height: 50vh;
+    top: -10vh;
+    left: 60vw;
+    border-radius: 130px;
 }
 
 #contact {
@@ -147,6 +220,15 @@ li {
     text-align: center;
 }
 
+#contact h1{
+    position: relative;
+    color: white;
+    top: -15vh;
+    left: -40vw;
+    font-size: 60px;
+    font-weight: bolder;
+
+}
 form {
     display: flex;
     flex-direction: column;
