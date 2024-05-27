@@ -118,7 +118,7 @@ li {
 
 .home_text {
     font-family: "Oswald", sans-serif;
-    font-size: 20px;
+    font-size: calc(0.7vw + 0.7vh);
     margin-bottom: 30px; 
 }
 
