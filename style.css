@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
 
-body{
-/*    background-color: aqua;*/
-     background-image: url('/media/images/bugs.jpg');
-    background-repeat: no-repeat; 
+*{
+    /* background-color: aqua; */
+    padding: 0;
+    margin: 0;
+    /* background-image: url('/media/images/bugs.jpg');
+    background-repeat: no-repeat; */
 }
 
 #main-header{
     text-align: center;
-    background-color: bisque;
+    background-color: rgb(224, 173, 110);
     padding: 10px;
 }
 
@@ -39,8 +42,9 @@ li{
 }
 
 .navbar {
-    position: sticky;
-    float: right;
+    position: fixed;
+    top: 0vh;
+    right: 0vh;
     margin: 0px 0 0 0;
 }
 
@@ -50,3 +54,107 @@ li{
     margin-left: 20px;
     padding-bottom: 3px;
 }
+
+#home {
+    width: 100%;
+    min-height: 100vh;
+    /* background-image: url('/media/images/bugs.jpg');
+    background-repeat: no-repeat; */
+    background-color: black;
+    color: black;
+}
+#home h1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+}
+
+#about {
+    width: 100%;
+    min-height: 100vh;
+    /* background-image: url('/media/images/bugs.jpg');
+    background-repeat: no-repeat; */
+    background-color: red;
+    color: white;
+
+}
+
+#project {
+    width: 100%;
+    min-height: 100vh;
+    /* background-image: url('/media/images/bugs.jpg');
+    background-repeat: no-repeat; */
+    background-color: teal;
+    color: white;
+}
+
+.mff_video {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#contact {
+    width: 100%;
+    min-height: 100vh;
+    /* background-image: url('/media/images/bugs.jpg');
+    background-repeat: no-repeat; */
+    background-color: blue;
+    color: white;
+}
+
+#photocar{
+    position: absolute;
+    top: 15%;
+    right: 10vh;
+    width: 47vw;
+    height: 40vw;
+}
+
+.text {
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 500px; /* Adjust width as needed */
+    height: 300px;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    color: white;
+    font-size: 30px;
+    /* background-color: #f9f9f9; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.heading{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 500px; /* Adjust width as needed */
+    height: 300px;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "Jaro", sans-serif;
+    
+}
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+
+.jaro-<uniquifier> {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
