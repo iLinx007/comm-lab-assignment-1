@@ -58,10 +58,10 @@ li{
 #home {
     width: 100%;
     min-height: 100vh;
-    /* background-image: url('/media/images/bugs.jpg');
-    background-repeat: no-repeat; */
-    background-color: black;
-    color: black;
+    background-image: url('/media/images/bugs.jpg');
+    background-repeat: no-repeat;
+    /* background-color: black; */
+    color: white;
 }
 #home h1{
     position: absolute;
