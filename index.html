@@ -1,91 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lincoln Ahiadu - Communications Lab</title>
-    </head>
-    <body>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./media/images/favicon.png">
+    <title>Lincoln Ahiadu - Communications Lab</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        <header id="main-header">
-            <h1>Lincoln Ahiadu - Comm Lab</h1>
-        </header>
+    <header id="main-header">
+        <img class="favicon" src="./media/images/favicon.png" alt="Favicon">
+        <h1>Lincoln Ahiadu - Comm Lab</h1>
+    </header>
 
-        <section id="home">
-            <!-- <h1>
-                Welcome
-            </h1> -->
-            <div class="heading">
-                <h2>
-                    EQUIPMENT CENTER
-                </h2>
+    <section id="home" class="parallax">
+        <div class="heading">
+            <h2>EQUIPMENT CENTER</h2>
+        </div>
+        <img src="" id="photocar">
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, aut? Iure quod ut veritatis facilis dolore. Ut, sapiente facere. Suscipit voluptate rerum magni adipisci perspiciatis inventore odio expli cabo accusantium porro?</p>
+        </div>
+    </section>
+
+    <!--Projects Section-->
+    <section id="project" class="parallax">
+        <h3>This is the Project Section</h3>
+        <div class="mff_video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PN298gsrM08?si=iUPF0jr7-hapLgde" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about" class="parallax">
+        <h3>This is the About Section</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magnam ipsum dolore sequi ratione, quas laboriosam vel obcaecati amet distinctio repudiandae ipsam nihil expedita soluta accusamus, minus, asperiores quo magni.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magnam ipsum dolore sequi ratione, quas laboriosam vel obcaecati amet distinctio repudiandae ipsam nihil expedita soluta accusamus, minus, asperiores quo magni.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magnam ipsum dolore sequi ratione, quas laboriosam vel obcaecati amet distinctio repudiandae ipsam nihil expedita soluta accusamus, minus, asperiores quo magni.</p>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="parallax">
+        <h3>This is the Contact Section</h3>
+        <form action="https://api.web3forms.com/submit" method="post">
+            <div>
+                <label>Name</label>
+                <input type="hidden" name="access_key" value="91e7d844-26d4-4fea-87de-25563f3c1d3b">
+                <input type="text" name="name" placeholder="Enter name" required>
             </div>
-            <img src="" id="photocar">
-            <div class="text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, aut? Iure quod ut veritatis facilis dolore.
-                    Ut, sapiente facere. Suscipit voluptate rerum magni adipisci perspiciatis inventore odio expli
-                    cabo accusantium porro?
-                </p>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter valid email address" required>
             </div>
-   
-        </section>
-       
-        <!--Projects Section-->
-        <section id="project">
-            <h3>This is the Project Section</h3>
-            <div class="mff_video">
-                <iframe src="https://drive.google.com/file/d/1T_P829xMeUyStIaYUXOKUlx753GCCcOC/preview" width="640" height="480" allow="autoplay"></iframe>
+            <br>
+            <div>
+                <label>Phone no.</label>
+                <input type="text" name="phone" placeholder="International format" required>
             </div>
-        </section>
-
-
-        <!--About Section-->
-        <section id="about">
-            <h3>This is the About Section</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magnam ipsum dolore sequi ratione, quas laboriosam vel obcaecati amet distinctio repudiandae ipsam nihil expedita soluta accusamus, minus, asperiores quo magni.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magnam ipsum dolore sequi ratione, quas laboriosam vel obcaecati amet distinctio repudiandae ipsam nihil expedita soluta accusamus, minus, asperiores quo magni.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magnam ipsum dolore sequi ratione, quas laboriosam vel obcaecati amet distinctio repudiandae ipsam nihil expedita soluta accusamus, minus, asperiores quo magni.</p>
-           
-        </section>
-
-
-
-        <!--Contact Section-->
-        <section id="contact">
-            <h3>This is the Contact Section</h3>
-            <form>
-                <div>
-                    <label>Name</label>
-                    <input type="text" name="name" placeholder="Enter name">
-                </div>
-                <br>
-                <div>
-                    <label>Email</label>
-                    <input type="email" name="email" placeholder="Enter valid email address">
-                </div>
-                <br>
-                <div>
-                    <label>Phone no.</label>
-                    <input type="text" name="phone" placeholder="International format">
-                </div>
-                <br>
-                <div>
-                    <label>Message</label>
-                    <textarea></textarea>
-                </div>
-                <br>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message" placeholder="Write your message here" required></textarea>
+            </div>
+            <br>
+            <div class="button-container">
                 <input type="submit" name="submit" value="Submit">
-            </form>
-        </section>
-    </body>
+                <button type="button" class="clear-button" onclick="this.form.reset()">Clear All</button>
+            </div>
+        </form>
+    </section>
+</body>
 </html>
